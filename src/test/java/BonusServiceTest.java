@@ -54,7 +54,7 @@ class BonusServiceTest {
 
 
     @org.junit.jupiter.api.Test
-    void CalculateForUnRegistered() {
+    void when() {
         BonusService service = new BonusService();
 
         // подготавливаем данные:
